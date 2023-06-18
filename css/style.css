@@ -1,0 +1,351 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(37, 21, 21, 0.5)), url("../gambar/Screenshot\ 2023-06-17\ 194032.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+.header {
+    width: 99.9%;
+    background-color: #1f262d;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    z-index: 999;
+    transition: top 0.3s;
+}
+
+.header.sticky {
+    top: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.astelica-kasdea {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(240, 248, 255, 0.075);
+}
+
+.astelica-kasdea img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    transition: transform 0.5s;
+}
+
+.panah-kiri,
+.panah-kanan {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(122, 121, 121, 0.856);
+}
+
+.panah-kiri {
+    left: -15px;
+}
+
+.panah-kanan {
+    right: -15px;
+}
+
+.slide-kiri {
+    transform: translateX(-310%);
+}
+
+.slide-kanan {
+    transform: translateX(310%);
+}
+
+.slide-tengah {
+    transform: translateX(0%);
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #1f262d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 99.3%;
+}
+
+.tentang-content {
+    display: flex;
+    align-items: center;
+}
+
+.gambar {
+    flex: 1;
+}
+
+.gambar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.deskripsi {
+    flex: 3;
+    background-color: rgba(29, 29, 29, 0.12);
+    padding: 20px;
+}
+
+.deskripsi h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+
+.deskripsi p {
+    line-height: 1.5;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#video {
+    text-align: center;
+}
+
+.video-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.video {
+    margin-left: 50px;
+}
+
+.gambar-dea, .text {
+    margin-left: -10px;
+}
+
+.gambar-dea img {
+    max-width: 65%;
+    height: auto;
+}
+
+.text {
+    line-height: 1.5;
+    color:#000000;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+#sosmed {
+    text-align: center;
+}
+
+.sosmed-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.sosmed-dea {
+    width: 65%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sosmed-dea img {
+    width: 35%;
+    position: relative;
+    left: -60%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sosmed-tulis {
+    text-align: center;
+    position: relative;
+}
+
+.sosmed-tulis {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: -45%;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    margin: auto;
+    font-size: 36px;
+    font-weight:bolder;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.twitter img {
+    position: absolute;
+    top: 10px; /* Atur posisi dari atas (top) */
+    left: 45%; /* Atur posisi dari kiri (left) */
+    width: 5%;
+    height: auto;
+}
+
+.twitter span {
+    position: absolute;
+    top: 5%; /* Atur posisi dari atas (top) */
+    right: 40%; /* Atur posisi dari kanan (right) */
+    color: #000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.youtube img {
+    position: absolute;
+    top: 20%; /* Atur posisi dari atas (top) */
+    left: 63%; /* Atur posisi dari kiri (left) */
+    width: 5%;
+    height: auto;
+}
+
+.youtube span {
+    position: absolute;
+    top: 25%; /* Atur posisi dari atas (top) */
+    right: 38%; /* Atur posisi dari kanan (right) */
+    color: #000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.facebook img {
+    position: absolute;
+    top: 44%; /* Atur posisi dari atas (top) */
+    left: 45%; /* Atur posisi dari kiri (left) */
+    width: 4%;
+    height: auto;
+}
+
+.facebook span {
+    position: absolute;
+    top: 45%; /* Atur posisi dari atas (top) */
+    right: 38%; /* Atur posisi dari kanan (right) */
+    color: #000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.tiktok {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tiktok img {
+    position: absolute;
+    top: 65%; /* Atur posisi dari atas (top) */
+    left: 63%; /* Atur posisi dari kiri (left) */
+    width: 4%;
+    height: auto;
+}
+
+.tiktok span {
+    position: absolute;
+    top: 65%; /* Atur posisi dari atas (top) */
+    right: 38%; /* Atur posisi dari kanan (right) */
+    color: #000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram img {
+    position: absolute;
+    top: 80%; /* Atur posisi dari atas (top) */
+    left: 44.5%; /* Atur posisi dari kiri (left) */
+    width: 5%;
+    height: auto;
+}
+
+.instagram span {
+    position: absolute;
+    top: 85%; /* Atur posisi dari atas (top) */
+    right: 37.5%; /* Atur posisi dari kanan (right) */
+    color: #000;
+    font-weight: bold;
+    font-size: 48px;
+}
