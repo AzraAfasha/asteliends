@@ -11342,6 +11342,7 @@ header.masthead .masthead-heading {
 }
 
 .kasdea2 {
+  max-width: 100%;
   width: 550px; /* Atur lebar gambar sesuai kebutuhan */
   height: auto;
   margin-left: -200px;
