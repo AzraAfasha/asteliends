@@ -11311,7 +11311,7 @@ header.masthead .masthead-heading {
 }
 
 .carousel-container {
-  width: 850px; /* Ubah ukuran sesuai kebutuhan */
+  width: auto; /* Ubah ukuran sesuai kebutuhan */
   height: auto; /* Ubah ukuran sesuai kebutuhan */
   margin: 0 auto;
   overflow: hidden;
@@ -11329,12 +11329,13 @@ header.masthead .masthead-heading {
 }
 
 .kasdea1{
-  width: 500px;
+  max-width: 100%;
+  width: 550px;
   height: auto;
-  margin-left: 50px;
 }
 
 .video {
+  max-width: 100%;
   width: 500px;
   height: 300px;
   margin-top: 50px;
